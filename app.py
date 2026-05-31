@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.header('Teste de Streamlit') # título da aplicação
 
-car_data = pd.read_csv('https://github.com/leeomendes96/sprint5tripleten/blob/main/vehicles.csv') # lendo os dados
+car_data = pd.read_csv('https://raw.githubusercontent.com/leeomendes96/sprint5tripleten/main/vehicles.csv') # ler os dados
 hist_button = st.button('Criar histograma') # criar um botão
 graph_button = st.button('Criar gráfico de dispersão') # criar um botão
         
